@@ -1,0 +1,63 @@
+@media only screen and (min-width: 1024px){
+
+header {
+	height: 100vh;
+	box-sizing: border-box;
+	padding: 5% 10px;
+}
+
+.interior-page header {
+	height: auto;
+	padding: 100px 5% 300px 5%;
+
+}
+
+header h1 {
+	font-size: 5.5em;
+}
+
+.interior-page header h1 {
+	font-size: 4em;
+}
+
+.interior-page .subtitle {
+	font-size: 1.4em;
+}
+
+#header-content {
+	position: relative;
+	top: 30%;
+}
+
+.interior-page #header-content {
+	position: static;
+}
+
+section, .content {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+section.no-padding {
+	max-width: 100%;
+}
+
+a.btn-box {
+	width: 25%;
+
+}
+
+a.btn-bar {
+	width: 20%;
+	transition: width .25s;
+}
+
+a.btn-bar:hover {
+	width: 25%;
+}
+
+a.btn-contact {
+	width: 16%;
+}
+
+}
